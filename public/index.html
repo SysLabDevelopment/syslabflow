@@ -1,0 +1,380 @@
+<html lang="ru" class="translated-ltr">
+
+<head>
+  <title>Syslab Flow| Главная</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="SysLab">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- VENDOR CSS -->
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/vendor/animate-css/vivify.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/c3/c3.min.css">
+  <link rel="stylesheet" href="/assets/vendor/chartist/css/chartist.min.css">
+  <link rel="stylesheet" href="/assets/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.css">
+  <link rel="stylesheet" href="/assets/vendor/jvectormap/jquery-jvectormap-2.0.3.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="/html/assets/css/site.min.css">
+
+  <style type="text/css">
+    .jqstooltip {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      visibility: hidden;
+      background: rgb(0, 0, 0) transparent;
+      background-color: rgba(0, 0, 0, 0.6);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+      white-space: nowrap;
+      padding: 5px;
+      border: 1px solid white;
+      box-sizing: content-box;
+      z-index: 10000;
+    }
+
+    .jqsfield {
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+    }
+  </style>
+  <link type="text/css" rel="stylesheet" charset="UTF-8"
+    href="https://translate.googleapis.com/translate_static/css/translateelement.css">
+  <style type="text/css">
+    .jqstooltip {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      visibility: hidden;
+      background: rgb(0, 0, 0) transparent;
+      background-color: rgba(0, 0, 0, 0.6);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+      white-space: nowrap;
+      padding: 5px;
+      border: 1px solid white;
+      box-sizing: content-box;
+      z-index: 10000;
+    }
+
+    .jqsfield {
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+    }
+  </style>
+  <!-- Google Tag Manager -->
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-56LKPVQ"></script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56LKPVQ');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <title>SysLab Flow</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase.js"></script>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+  <script src="dist/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="dist/firebaseui.css">
+  <style type="text/css">
+    .jqstooltip {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      visibility: hidden;
+      background: rgb(0, 0, 0) transparent;
+      background-color: rgba(0, 0, 0, 0.6);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+      white-space: nowrap;
+      padding: 5px;
+      border: 1px solid white;
+      box-sizing: content-box;
+      z-index: 10000;
+    }
+
+    .jqsfield {
+      color: white;
+      font: 10px arial, san serif;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body class="theme-cyan font-montserrat light_version">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56LKPVQ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- Page Loader -->
+  <div class="page-loader-wrapper" style="display: none;">
+    <div class="loader">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <div class="bar4"></div>
+      <div class="bar5"></div>
+    </div>
+  </div>
+
+  <!-- Theme Setting -->
+
+
+  <!-- Overlay For Sidebars -->
+  <div class="overlay"></div>
+
+  <div id="wrapper">
+
+    <nav class="navbar top-navbar">
+      <div class="container-fluid">
+
+        <div class="navbar-left">
+          <div class="navbar-btn">
+            <a href="index.html"><img src="/assets/images/icon.svg" alt="Oculux Logo" class="img-fluid logo"></a>
+            <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
+          </div>
+
+        </div>
+
+        <div class="navbar-right">
+          <div id="navbar-menu">
+            <ul class="nav navbar-nav">
+
+
+              <li><a href="page-login.html" class="icon-menu" id="sign-out"><i class="icon-power"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar" style="width: 4.15617%;"></div>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+    <div id="left-sidebar" class="sidebar">
+      <div class="navbar-brand">
+        <a href="index.html"><img src="/assets/images/icon.svg" alt="Oculux Logo" class="img-fluid logo"><span>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">SysLab Flow</font>
+            </font>
+          </span></a>
+        <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i
+            class="lnr lnr-menu icon-close"></i></button>
+      </div>
+      <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: calc(100vh - 65px);">
+        <div class="sidebar-scroll" style="overflow: hidden; width: auto; height: calc(100vh - 65px);"
+          id="user-signed-in">
+          <div class="user-account" id="user-info">
+            <div class="user_div" id="photo-container">
+              <img src="" class="user-photo" alt="Фотография профиля пользователя" id="photo">
+            </div>
+            <div class="dropdown show">
+              <span>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Добро пожаловать, </font>
+                </font>
+              </span>
+              <a href="javascript:void(0);" class="dropdown-toggle user-name" data-toggle="dropdown"
+                aria-expanded="true"><strong>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;" id="name"></font>
+                  </font>
+                </strong></a>
+              <ul class="dropdown-menu dropdown-menu-right account vivify flipInY" x-placement="top-end"
+                style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-19px, -75px, 0px);">
+                <li><a href="profile.html"><i class="icon-user"></i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Мой профайл</font>
+                    </font>
+                  </a></li>
+                <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Сообщения</font>
+                    </font>
+                  </a></li>
+                <li><a href="javascript:void(0);"><i class="icon-settings"></i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">настройки</font>
+                    </font>
+                  </a></li>
+                <li class="divider"></li>
+                <li><a href="page-login.html"><i class="icon-power"></i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Выйти</font>
+                    </font>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <nav id="left-sidebar-nav" class="sidebar-nav">
+            <ul id="main-menu" class="metismenu">
+              <li class="header">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Главный</font>
+                </font>
+              </li>
+              <li class="active open"><a href="/"><i class="icon-home"></i><span>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Главная</font>
+                    </font>
+                  </span></a></li>
+
+
+
+
+
+
+
+
+
+
+            </ul>
+          </nav>
+        </div>
+        <div class="slimScrollBar"
+          style="background: rgb(28, 34, 44); width: 2px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 3px; z-index: 99; right: 1px; height: 270px;">
+        </div>
+        <div class="slimScrollRail"
+          style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;">
+        </div>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <div class="container-fluid">
+        <div class="block-header">
+          <div class="row clearfix">
+            <div class="col-md-6 col-sm-12">
+              <h1>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;" class='pageName'></font>
+                </font>
+              </h1>
+              <nav aria-label="хлебный мякиш">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">SysLab Flow</font>
+                      </font>
+                    </a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;" class='pageName'></font>
+                    </font>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <div id="container">
+        <div id="loading">Загрузка...</div>
+        <div id="loaded" class="hidden">
+          <div id="main">
+
+            <div id="user-signed-out" class="hidden">
+              <div id="firebaseui-spa">
+                <div id="firebaseui-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Javascript -->
+  <script src="/html/assets/bundles/libscripts.bundle.js"></script>
+  <script src="/html/assets/bundles/vendorscripts.bundle.js"></script>
+
+  <script src="/html/assets/bundles/c3.bundle.js"></script>
+  <script src="/html/assets/bundles/flotscripts.bundle.js"></script>
+  <script src="/html/assets/bundles/jvectormap.bundle.js"></script>
+  <script src="/assets/vendor/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+
+  <script src="/html/assets/bundles/mainscripts.bundle.js"></script>
+  <script src="/html/assets/js/hrdashboard.js"></script>
+  <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+    <div style="padding: 8px;">
+      <div>
+        <div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20"
+            height="20" alt="Google Переводчик"></div>
+      </div>
+    </div>
+    <div class="top" style="padding: 8px; float: left; width: 100%;">
+      <h1 class="title gray">Исходный текст</h1>
+    </div>
+    <div class="middle" style="padding: 8px;">
+      <div class="original-text"></div>
+    </div>
+    <div class="bottom" style="padding: 8px;">
+      <div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span
+          class="activity-link"></span></div>
+      <div class="started-activity-container">
+        <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+        <div class="activity-root"></div>
+      </div>
+    </div>
+    <div class="status-message" style="display: none;"></div>
+  </div>
+
+
+  <div class="goog-te-spinner-pos">
+    <div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px"
+        height="96px" viewBox="0 0 66 66">
+        <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
+        </circle>
+      </svg></div>
+  </div>
+  <script src="app.js"></script>
+  <script src="/js/smartlock.js"></script>
+
+
+</body>
+
+</html>
